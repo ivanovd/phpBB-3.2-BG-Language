@@ -135,6 +135,7 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPICS_CONFIRM'		=> 'Сигурни ли сте, че искате да заключите избраните теми?',
 	'LOGS_CURRENT_TOPIC'		=> 'Преглеждане логовете на:',
 	'LOGIN_EXPLAIN_MCP'			=> 'За да модерирате този форум трябва да сте влезли в профила са.',
+	'LOGVIEW_VIEWPOST'			=> 'Виж мнението',
 	'LOGVIEW_VIEWTOPIC'			=> 'Виж темата',
 	'LOGVIEW_VIEWLOGS'			=> 'Виж логовете на темата',
 	'LOGVIEW_VIEWFORUM'			=> 'Виж форума',
