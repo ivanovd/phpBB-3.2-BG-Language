@@ -70,9 +70,6 @@ $lang = array_merge($lang, array(
 
 	'CAT_FLASH_FILES'			=> 'Flash файлове',
 	'CAT_IMAGES'				=> 'Изображения',
-	'CAT_QUICKTIME_FILES'		=> 'Quicktime медия файлове',
-	'CAT_RM_FILES'				=> 'RealMedia медия файлове',
-	'CAT_WM_FILES'				=> 'Windows Media медия файлове',
 	'CHECK_CONTENT'				=> 'Проверка на прикачените файлове',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Някои браузъри могат да бъдат залъгани и да приемат грешен mimetype на прикачения файл. Включването на тази опция гарантира, че такива файлове ще бъдат отхвърляни.',
 	'CREATE_GROUP'				=> 'Създаване на нова група',
@@ -105,9 +102,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_FLASH_FILES'			=> 'Flash файлове',
 	'EXT_GROUP_IMAGES'				=> 'Изображения',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Текст',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime медия',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Real медия',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows медия',
 
 	'FILES_GONE'			=> 'Някои от прикачените файлове, които сте избрали за изтриване не съществуват. Възможно е те вече да са били изтрити. Останалите прикачени файлове бяха изтрити.',
 	'FILES_STATS_WRONG'		=> 'Възможно е статистиката на файловете да не е точна и трябва да бъде синхронизирана. Реални данни: брой прикачени файлове = %1$d, общ размер на прикачените файлове = %2$s.<br />Щракнете %3$sтук%4$s за синхронизиране.',

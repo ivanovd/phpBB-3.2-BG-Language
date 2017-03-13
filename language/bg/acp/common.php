@@ -108,6 +108,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'Права на групите',
 	'ACP_GROUPS_POSITION'			=> 'Управление позицията на групите',
 
+	'ACP_HELP_PHPBB'			=> 'Подкрепете phpBB',
+
 	'ACP_ICONS'					=> 'Икони на темите',
 	'ACP_ICONS_SMILIES'			=> 'Икони на темите/усмивки',
 	'ACP_INACTIVE_USERS'		=> 'Неактивни потребители',
@@ -167,7 +169,6 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Настройки на търсенето',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Настройки на сигурността',
-	'ACP_SEND_STATISTICS'		=> 'Изпращане на статистическа информация',
 	'ACP_SERVER_CONFIGURATION'	=> 'Конфигурация на сървъра',
 	'ACP_SERVER_SETTINGS'		=> 'Настройки на сървъра',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Настройки на подписите',
@@ -225,12 +226,26 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Назад',
 
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'Неуспешна промяна на групата на файла',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Неуспешна промяна на правата на файла',
+	'CANNOT_COPY_FILES'		=> 'Неуспешно копиране на файловете',
+	'CANNOT_CREATE_SYMLINK'	=> 'Неуспешно създаване на symlink',
+	'CANNOT_DELETE_FILES'	=> 'Неуспешно изтриване на файлове от системата',
+	'CANNOT_DUMP_FILE'		=> 'Неуспешно дъмпване на файл',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'Неуспешно клониране на директория',
+	'CANNOT_RENAME_FILE'	=> 'Неуспешно преименуване на файл от системата',
+	'CANNOT_TOUCH_FILES'	=> 'Неуспешна проверка за съществуване на файл',
+
+	'CONTAINER_EXCEPTION' => 'phpBB се натъкна на грешка при построяването на контейнер заради инсталирано разширение. Поради тази причина, всички разширения бяха временно изключени. Моля, изчистете кеше на форума. Всички разширения ще бъдат включени отново автоматично, щом грешката при построяването на контейнера бъде отстранена. Ако продължавате да виждате грешката, моля посетете <a href="https://www.phpbb.com/support">phpBB.com</a> за помощ.',
+	'EXCEPTION' => 'Изключение',
+
 	'COLOUR_SWATCH'			=> 'Web-безопасна цветна четка',
 	'CONFIG_UPDATED'		=> 'Конфигурацията беше обновена успешно.',
 	'CRON_LOCK_ERROR'		=> 'Не може да бъде получен cron lock.',
 	'CRON_NO_SUCH_TASK'		=> 'Cron задачата “%s” не може да бъде намерена.',
 	'CRON_NO_TASK'			=> 'Няма cron задачи, които да трябва да се изпълнят в момента.',
 	'CRON_NO_TASKS'			=> 'Няма намерени cron задачи.',
+	'CURRENT_VERSION'		=> 'Версия в момента',
 
 	'DEACTIVATE'				=> 'Деактивирай',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Въведеният път “%s” не съществува.',
@@ -256,6 +271,7 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'Потребителски IP адрес',
 	'IP_HOSTNAME'			=> 'IP адреси или хостове',
 
+	'LATEST_VERSION'		=> 'Последна версия',
 	'LOAD_NOTIFICATIONS'			=> 'Показване на известията',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Показване на списъка с известия на всяка страница (обикновено в хедъра).',
 	'LOGGED_IN_AS'			=> 'Влезли сте като:',
@@ -288,7 +304,9 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'В момента ползвате правата на %1$s. Можете да разглеждате форума с правата на този потребител, но не и да достъпвате административния контролен панел, тъй като админ правата не бяха прехвърлени. Можете да <a href="%2$s"><strong>върнете правата си</strong></a> по всяко време.',
 	'PROCEED_TO_ACP'					=> '%sПреминете към АКП%s',
 
+	'RELEASE_ANNOUNCEMENT'		=> 'Съобщение',
 	'REMIND'							=> 'Напомни',
+	'REPARSE_LOCK_ERROR'				=> 'Репарсването вече се изпълянва от друг процес.',
 	'RESYNC'							=> 'Синхронизирай',
 
 	'RUNNING_TASK'			=> 'Задача вървяща в момента: %s.',
@@ -309,6 +327,10 @@ $lang = array_merge($lang, array(
 	'UCP'					=> 'Потребителски панел',
 	'USERNAMES_EXPLAIN'		=> 'Въведете всяко потребителско име на отделен ред.',
 	'USER_CONTROL_PANEL'	=> 'Потребителски Контролен Панел',
+
+	'UPDATE_NEEDED'			=> 'Форумът Ви не обновен до последната версия.',
+	'UPDATE_NOT_NEEDED'		=> 'Форумът е обновен до последната версия.',
+	'UPDATES_AVAILABLE'		=> 'Налични обновления:',
 
 	'WARNING'				=> 'Предупреждение',
 ));
@@ -420,6 +442,11 @@ $lang = array_merge($lang, array(
 	'VALUE'						=> 'Стойност',
 	'VERSIONCHECK_FAIL'			=> 'Възникна грешка при проверката за нова версия.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'провери за по-нова версия',
+	'VERSION_CHECK'				=> 'Проверка на версията',
+	'VERSION_CHECK_EXPLAIN'		=> 'Проверете дали Вашата инсталация на phpBB е последна версия.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Имате инсталирана стара версия на phpBB.<br />Отдолу ще намерите връзка към съобщението за новата весия, съдържащо повече информация и инструкции за обновяване.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Имате инсталирана стара версия на phpBB.',
+	'VERSION_UP_TO_DATE_ACP'	=> 'Имате инсталирана последната версия на phpBB. В момента няма налични обновления.',
 	'VIEW_ADMIN_LOG'			=> 'Виж админ лога',
 	'VIEW_INACTIVE_USERS'		=> 'Виж неактивните потребители',
 
@@ -452,16 +479,18 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> 'Потребителят е неактивен',
 ));
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'Моля, изпратете информация за Вашия сървър и конфигурацията на форума на phpBB за статистически анализ. Цялата информация, която би могла да идентифицира Вас или вашият сайт е премахната - данните са напълно <strong>анонимни</strong>. Базирайки се на тази информация ние правим решения за бъдещите phpBB версии. Статистиките са публично достъпни. Също така споделяме тази информация с PHP проекта, програмният език, на който е написан phpBB.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'От бутона по-долу можете да видите всички променливи, които ще бъдат изпратени.',
 	'DONT_SEND_STATISTICS'		=> 'Върнете се в АКП ако не искате да изпратите статистическа информация на phpBB.',
 	'GO_ACP_MAIN'				=> 'Отиди на началната АКП страница',
 	'HIDE_STATISTICS'			=> 'Скрий детайлите',
-	'SEND_STATISTICS'			=> 'Изпрати статистическа информация',
+	'SEND_STATISTICS'			=> 'Изпрати статистика',
+	'SEND_STATISTICS_LONG'		=> 'Изпрати статистическа информация',
 	'SHOW_STATISTICS'			=> 'Покажи детайлите',
 	'THANKS_SEND_STATISTICS'	=> 'Благодарим Ви за изпращането на информацията.',
+	'FAIL_SEND_STATISTICS'		=> 'phpBB не успя да изпрати статистическата информция',
 ));
 
 // Log Entries
@@ -792,4 +821,5 @@ $lang = array_merge($lang, array(
 	'LOG_EXT_ENABLE'	=> '<strong>Включи разширение</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Изключи разширение</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Изтри данните на разширение</strong><br />» %s',
+	'LOG_EXT_UPDATE'	=> '<strong>Обнови разширение</strong><br />» %s',
 ));
