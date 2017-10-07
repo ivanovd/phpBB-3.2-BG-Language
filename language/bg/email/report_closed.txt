@@ -1,4 +1,4 @@
-Заглавие: Затворен доклад - "{POST_SUBJECT}"
+Subject: Затворен доклад - "{POST_SUBJECT}"
 
 Здравейте, {USERNAME},
 
