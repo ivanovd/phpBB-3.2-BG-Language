@@ -1,4 +1,4 @@
-Заглавие: Добре дошли в "{SITENAME}"
+Subject: Добре дошли в "{SITENAME}"
 
 {WELCOME_MSG}
 
