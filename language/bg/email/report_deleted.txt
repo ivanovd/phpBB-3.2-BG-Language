@@ -1,4 +1,4 @@
-Заглавие: Изтрит доклад - "{POST_SUBJECT}"
+Subject: Изтрит доклад - "{POST_SUBJECT}"
 
 Здравейте, {USERNAME},
 
